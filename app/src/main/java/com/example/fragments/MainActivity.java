@@ -14,6 +14,7 @@ TextFragment textFragment=new TextFragment();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         changeFragment(R.id.container,Button_Fragment.create(this));
+        //teeext
     }
     public void changeFragment(int container, Fragment fragment){
         FragmentManager manager=getSupportFragmentManager(); //Достаем существующий фрагмент именно сапорт реализует обратную совместимость
